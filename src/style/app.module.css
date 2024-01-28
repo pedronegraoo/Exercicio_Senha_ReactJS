@@ -1,0 +1,87 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #242424;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: #fff;
+
+  margin-bottom: 2rem;
+}
+
+.allBtns {
+  display: flex;
+  gap: 1rem;
+}
+
+.allBtns button {
+  width: 5rem;
+  height: 2rem;
+
+  background-color: #1a1919;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.allBtns button:hover {
+  border: 1px solid aqua;
+}
+
+.allBtns button:focus {
+  border: 1px solid aqua;
+}
+
+.sizePass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.sizePass label {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.sizePass input {
+  width: 7rem;
+  height: 2rem;
+  padding-inline: 0.4rem;
+
+  background-color: #1a1919;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.senha {
+  color: #fff;
+}
+
+.showInputSize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.showInputSize label {
+  color: #fff;
+  font-size: 1.3rem;
+}
