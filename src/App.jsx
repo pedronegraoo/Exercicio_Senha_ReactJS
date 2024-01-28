@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div className={style.container}>
+      <h1>TESTANDO ATUALIZAÇÃO</h1>
       <h1>Gerador de senhas</h1>
 
       <div className={style.showInputSize}>
